@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="ojApp">
+<head>
+	<meta charset="utf-8">
+	<title>Online Judge Helper</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/oj.css">
+</head>
+<body>
+	<div class="row offset1" id="main">           
+        <div ng-controller="ojAppCtrl">
+            <div class="span3 topic-bar">
+               <li ng-repeat="oj in ojs" class="topic">
+                    <a ng-click="func()" topic="{{oj}}" class="link">{{oj}}</a>
+               </li>
+            </div>
+        </div>
+        <div class="span12" ng-view></div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-resource.js"></script>
+    <script type="text/javascript" src="js/oj.js"></script>
+</body>
+</html>
