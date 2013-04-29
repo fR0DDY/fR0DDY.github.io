@@ -1,20 +1,23 @@
-<h3>Sphere Online Judge</h3>
-<input type="text" ng-model="search" class="input-xxlarge" placeholder="Search">
-<table class="table table-striped" ng-controller="SPOJListCtrl">
-	<thead>
-		<tr>
-			<th>ID</th>
-			<th>Title</th>
-			<th>Keywords</th>
-			<th>Link</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr ng-repeat="problem in problems | filter:search | orderBy:'id'">
-			<td>{{problem.id}}</td>
- 			<td>{{problem.title}}</td>
- 			<td>{{problem.keywords}}</td>
- 			<td><a href="{{getURL(problem.id)}}" target="_blank"><i class="icon-globe"></i></a></td>
-		</tr>
-	</tbody>
-</table>
+<div ng-controller="SPOJListCtrl">
+	<h2>Sphere Online Judge</h2>
+	<p>Hints for {{problems.length}} problems of 129 solved problems.</p>
+	<input type="text" ng-model="search" class="input-xxlarge" placeholder="Search">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Title</th>
+				<th>Keywords</th>
+				<th>Link</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="problem in problems | filter:search | orderBy:'id'">
+				<td>{{problem.id}}</td>
+	 			<td>{{problem.title}}</td>
+	 			<td>{{problem.keywords}}</td>
+	 			<td><a href="{{getURL(problem.id)}}" target="_blank"><i class="icon-globe"></i></a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
