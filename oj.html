@@ -7,19 +7,22 @@
 	<link rel="stylesheet" href="css/oj.css">
 </head>
 <body>
-	<div class="row offset1" id="main">           
-        <div ng-controller="ojAppCtrl">
-            <div class="span3 topic-bar">
-               <li ng-repeat="oj in ojs" class="topic">
-                    <a ng-click="func()" topic="{{oj}}" class="link">{{oj}}</a>
-               </li>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span3 bs-docs-sidebar" ng-controller="ojAppCtrl">
+                    <ul class="nav nav-list bs-docs-sidenav affix">
+                        <li ng-repeat="oj in ojs" class="{{oj.cls}}">
+                            <a ng-click="func()" topic="{{oj.name}}"><i class="icon-chevron-right"></i> {{oj.name}}</a>
+                        </li>
+                    </ul>
             </div>
+            <div class="span9" ng-view></div>
         </div>
-        <div class="span12" ng-view></div>
     </div>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="lib/angular.min.js"></script>
     <script type="text/javascript" src="lib/angular-resource.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/oj.js"></script>
 </body>
 </html>

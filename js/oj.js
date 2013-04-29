@@ -3,7 +3,7 @@ var ojApp = angular.module('ojApp', ['ojServices']);
 ojApp.config(function($routeProvider) {
 	$routeProvider.when('/', {controller: ojAppCtrl, templateUrl: 'oj/uva.html'} ).//
 	when('/spoj', {controller: ojAppCtrl, templateUrl: 'oj/spoj.html'} ).//
-	when('/uva', {redirectTo:'/'} ).//
+	when('/uva', {controller: ojAppCtrl, templateUrl: 'oj/uva.html'} ).//
 	otherwise({redirectTo:'/'});
 });
 
@@ -16,27 +16,17 @@ angular.module('ojServices', ['ngResource']).
 });
 
 function ojAppCtrl($scope, $location) {
-	$scope.ojs = ['UVA', 'SPOJ'];
+	$scope.ojs = [ {name:'UVA', cls: ''},
+					{name: 'SPOJ', cls: ''}];
 
-	//to make border appear across the entire height of screen
-	var height = $(window).height();
-	$('.topic-bar').height(height);
-
-	var len = 0;
-	var main = $('#main');
-	var oldtopic= "introduction";
-	var article = $('article');
+	var oldtopic= "uva";
+	
 	$scope.func = function(){
-		var newTopic = this.oj.toLowerCase();
-		if(newTopic === oldtopic) {
-			console.log("nothing");
-		}
-		else{			
-			article.css('visibility', 'hidden');
+		$scope.ojs.forEach(function(oj) {oj.cls = ''})
+		var newTopic = this.oj.name.toLowerCase();
+		if(newTopic !== oldtopic) {
 			$location.path(newTopic);
-			article.hide();
-			article.css('visibility', 'visible').delay(150);
-			article.slideDown(650);
+			this.oj.cls = 'active';
 			oldtopic = newTopic;
 		}
 	};
