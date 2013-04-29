@@ -6,6 +6,7 @@
 			<th>ID</th>
 			<th>Title</th>
 			<th>Keywords</th>
+			<th>Link</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -13,6 +14,7 @@
 			<td>{{problem.id}}</td>
  			<td>{{problem.title}}</td>
  			<td>{{problem.keywords}}</td>
+ 			<td><a href="{{getURL(problem.id)}}" target="_blank"><i class="icon-globe"></i></a></td>
 		</tr>
 	</tbody>
 </table>

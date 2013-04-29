@@ -22,7 +22,7 @@ function ojAppCtrl($scope, $location) {
 	var oldtopic= "uva";
 	
 	$scope.func = function(){
-		$scope.ojs.forEach(function(oj) {oj.cls = ''})
+		$scope.ojs.forEach(function(oj) {oj.cls = ''});
 		var newTopic = this.oj.name.toLowerCase();
 		if(newTopic !== oldtopic) {
 			$location.path(newTopic);
@@ -35,9 +35,17 @@ function ojAppCtrl($scope, $location) {
 function UVAListCtrl($scope, Problems) {
   $scope.problems = Problems.query({ojId: "uva"});
   $scope.orderProp = 'id';
+
+  $scope.getURL = function(id) {
+  	return "http://uva.onlinejudge.org/external/" + ~~(id / 100) + "/" + id + ".html";
+  }
 }
 
 function SPOJListCtrl($scope, Problems) {
   $scope.problems = Problems.query({ojId: "spoj"});
   $scope.orderProp = 'id';
+
+  $scope.getURL = function(id) {
+  	return "https://www.spoj.com/problems/" + id;
+  }
 }
