@@ -19,7 +19,7 @@ function ojAppCtrl($scope, $location) {
 	$scope.ojs = [ {name:'UVA', cls: ''},
 					{name: 'SPOJ', cls: ''}];
 
-	var oldtopic= "uva";
+	var oldtopic= "";
 	
 	$scope.func = function(){
 		$scope.ojs.forEach(function(oj) {oj.cls = ''});
