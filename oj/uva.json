@@ -32,5 +32,15 @@
 	{ "id": 12577, "title": "Hajj-e-Akbar", "keywords": "very easy, ad-hoc" },
 	{ "id": 12578, "title": "10:6:2", "keywords": "very easy, geometry" },
 	{ "id": 12602, "title": "Nice Licence Plates", "keywords": "easy, ad-hoc" },
-	{ "id": 763, "title": "Fibinary Numbers", "keywords": "Greedy, BigInteger" }
+	{ "id": 763, "title": "Fibinary Numbers", "keywords": "Greedy, BigInteger" },
+	{ "id": 10038, "title": "Jolly Jumpers", "keywords": "easy, ad-hoc" },
+	{ "id": 10189, "title": "Minesweeper", "keywords": "ad-hoc" },
+	{ "id": 10050, "title": "Hartals", "keywords": "ad-hoc, simulation" },
+	{ "id": 10082, "title": "WERTYU", "keywords": "ad-hoc" },
+	{ "id": 324, "title": "Factorial Frequencies", "keywords": "ad-hoc, BigInteger" },
+	{ "id": 10008, "title": "What's Cryptanalysis?", "keywords": "ad-hoc, sorting" },
+	{ "id": 713, "title": "Adding Reversed Numbers", "keywords": "ad-hoc, BigInteger" },
+	{ "id": 160, "title": "Factors and Factorials", "keywords": "number theory, primes" },
+	{ "id": 10323, "title": "Factorial! You Must be Kidding!!!", "keywords": "number theory, factorials" },
+	{ "id": 10006, "title": "Carmichael Numbers", "keywords": "number theory, primes, pseudoprimes" }
 ]
