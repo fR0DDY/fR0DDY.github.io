@@ -11,7 +11,7 @@
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span3 bs-docs-sidebar" ng-controller="ojAppCtrl">
-                    <ul class="nav nav-list bs-docs-sidenav affix">
+                    <ul class="nav nav-list bs-docs-sidenav">
                         <li ng-repeat="oj in ojs" class="{{oj.cls}}">
                             <a ng-click="func()" topic="{{oj.name}}"><i class="icon-chevron-right"></i> {{oj.name}}</a>
                         </li>
@@ -23,7 +23,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/oj.js"></script>
 </body>
 </html>
