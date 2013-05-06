@@ -116,8 +116,8 @@
 	{ "id": 993, "title": "Product of digits", "keywords": "math, greedy" },
 	{ "id": 10107, "title": "What is the Median?", "keywords": "sorting" },
 	{ "id": 10110, "title": "Light, more light", "keywords": "number theory, divisors, prime factorization, perfect squares" },
-	{ "id": 10222, "title": "Decode the Mad man", "keywords": "ad-hoc" }
-	{ "id": 10424, "title": "Love Calculator", "keywords": "ad-hoc" }
+	{ "id": 10222, "title": "Decode the Mad man", "keywords": "ad-hoc" },
+	{ "id": 10424, "title": "Love Calculator", "keywords": "ad-hoc" },
 	{ "id": 10432, "title": "Polygon Inside A Circle", "keywords": "geometry" },
 	{ "id": 10473, "title": "Simple Base Conversion", "keywords": "math, number base conversion" },
 	{ "id": 10530, "title": "Guessing Game", "keywords": "ad-hoc, simulation" },
