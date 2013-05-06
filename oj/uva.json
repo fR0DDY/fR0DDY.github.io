@@ -99,5 +99,22 @@
 	{ "id": 10209, "title": "Is This Integration ?", "keywords": "geometry" },
 	{ "id": 389, "title": "Basically Speaking", "keywords": "math, number base conversion" },
 	{ "id": 355, "title": "The Bases Are Loaded", "keywords": "math, number base conversion" },
-	{ "id": 10013, "title": "Super long sums", "keywords": "BigInteger" }
+	{ "id": 10013, "title": "Super long sums", "keywords": "BigInteger" },
+	{ "id": 10018, "title": "Reverse and Add", "keywords": "ad-hoc" },
+	{ "id": 11417, "title": "GCD", "keywords": "number theory, gcd" },
+	{ "id": 900, "title": "Brick Wall Patterns", "keywords": "number theory, Fibonacci numbers" },
+	{ "id": 913, "title": "Joana and the Odd Numbers", "keywords": "number theory, odd numbers, summations" },
+	{ "id": 113, "title": "Power of Cryptography", "keywords": "math, n'th root of an integer" },
+	{ "id": 119, "title": "Greedy Gift Givers", "keywords": "ad-hoc" },
+	{ "id": 591, "title": "Box of Bricks", "keywords": "ad-hoc" },
+	{ "id": 579, "title": "ClockHands", "keywords": "ad-hoc" },
+	{ "id": 11470, "title": "Square Sums", "keywords": "ad-hoc" },
+	{ "id": 11461, "title": "Square Numbers", "keywords": "math" },
+	{ "id": 11462, "title": "Age Sort", "keywords": "sorting" },
+	{ "id": 11455, "title": "Behold my quadrangle", "keywords": "geometry" },
+	{ "id": 11428, "title": "Cubes", "keywords": "number theory, math, brute force" },
+	{ "id": 993, "title": "Product of digits", "keywords": "math, greedy" },
+	{ "id": 10107, "title": "What is the Median?", "keywords": "sorting" },
+	{ "id": 10110, "title": "Light, more light", "keywords": "number theory, divisors, prime factorization, perfect squares" },
+	{ "id": 10222, "title": "Decode the Mad man", "keywords": "ad-hoc" }
 ]
