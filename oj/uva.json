@@ -124,5 +124,19 @@
 	{ "id": 10499, "title": "The Land of Justice", "keywords": "math" },
 	{ "id": 10633, "title": "Rare Easy Problem", "keywords": "number theory" },
 	{ "id": 10699, "title": "Count the factors", "keywords": "number theory, primes, sieve" },
-	{ "id": 10789, "title": "Prime Frequency", "keywords": "number theory, primes" }
+	{ "id": 10789, "title": "Prime Frequency", "keywords": "number theory, primes" },
+	{ "id": 530, "title": "Binomial Showdown", "keywords": "number theory, binomial theorem" },
+	{ "id": 294, "title": "Divisors", "keywords": "number theory, primes, sieve" },
+	{ "id": 583, "title": "Prime Factors", "keywords": "number theory, primes, sieve, prime factorization" },
+	{ "id": 10700, "title": "Camel trading", "keywords": "math, greedy" },
+	{ "id": 10784, "title": "Diagonal", "keywords": "Combinatorics, formula" },
+	{ "id": 10790, "title": "How Many Points of Intersection?", "keywords": "Combinatorics, formula" },
+	{ "id": 362, "title": "18,000 Seconds Remaining", "keywords": "ad-hoc, simulation" },
+	{ "id": 11479, "title": "Is this the easiest problem?", "keywords": "geometry" },
+	{ "id": 440, "title": "Eeny Meeny Moo", "keywords": "ad-hoc, simulation" },
+	{ "id": 151, "title": "Power Crisis", "keywords": "ad-hoc, simulation" },
+	{ "id": 11498, "title": "Division of Nlogonia", "keywords": "ad-hoc" },
+	{ "id": 11496, "title": "Musical Loop", "keywords": "ad-hoc" },
+	{ "id": 11494, "title": "Queen", "keywords": "ad-hoc" },
+	{ "id": 11547, "title": "Automatic Answer", "keywords": "ad-hoc, simulation" }
 ]
