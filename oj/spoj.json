@@ -60,7 +60,7 @@
 	{ "id": "HPYNOS", "title": "Happy Numbers I", "keywords": "math, happy numbers" },
 	{ "id": "HPYNOSII", "title": "Happy Numbers II", "keywords": "number theory, happy numbers" },
 	{ "id": "HS08CODE", "title": "Break a New RSA system", "keywords": "number theory, binary search" },
-	{ "id": "HS08PAUL", "title": "A conjecture of Paul Erdős", "keywords": "number theory, primes, squares" },
+	{ "id": "HS08PAUL", "title": "A conjecture of Paul Erdős", "keywords": "number theory, primes, set" },
 	{ "id": "INCARDS", "title": "Invitation Cards", "keywords": "dijkstra" },
 	{ "id": "IWGBS", "title": "0110SS", "keywords": "fibonacci" },
 	{ "id": "JULKA", "title": "Julka", "keywords": "very easy" },
