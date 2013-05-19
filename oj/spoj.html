@@ -8,7 +8,7 @@
 				<th>ID</th>
 				<th>Title</th>
 				<th>Keywords</th>
-				<th>Link</th>
+				<th>Links</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -16,7 +16,7 @@
 				<td>{{problem.id}}</td>
 	 			<td>{{problem.title}}</td>
 	 			<td>{{problem.keywords}}</td>
-	 			<td><a href="{{getURL(problem.id)}}" target="_blank"><i class="icon-globe"></i></a></td>
+	 			<td><a href="{{getURL(problem.id)}}" target="_blank" title="Problem"><i class="icon-globe"></i></a> <a href="http://www.spoj.com/forum/search.php?keywords={{problem.id}}" target="_blank" title="Forum"><i class="icon-question-sign"></i></a></td>
 			</tr>
 		</tbody>
 	</table>
