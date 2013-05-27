@@ -127,5 +127,9 @@
 	{ "id": "UCI2009B", "title": "Binomial Coefficients", "keywords": "number theory" },
 	{ "id": "UJ", "title": "Uncle Jack", "keywords": "math, easy" },
 	{ "id": "WEIRDFN", "title": "Weird Function", "keywords": "Data Structures" },
-	{ "id": "YAPP", "title": "Yet Another Permutations Problem", "keywords": "number theory, easy" }
+	{ "id": "YAPP", "title": "Yet Another Permutations Problem", "keywords": "number theory, easy" },
+	{ "id": "SUM1", "title": "Summation of Multiples", "keywords": "easy, math, Inclusion-Exclusion Princicple" },
+	{ "id": "APS", "title": "Amazing Prime Sequence", "keywords": "number theory, sieve" },
+	{ "id": "AFS", "title": "Amazing Factor Sequence", "keywords": "number theory, sieve, multiplicative function" },
+	{ "id": "IITD4", "title": "Divisor Summation Powered", "keywords": "number theory, repeated squaring multiplication" }
 ]
