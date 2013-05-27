@@ -131,5 +131,6 @@
 	{ "id": "SUM1", "title": "Summation of Multiples", "keywords": "easy, math, Inclusion-Exclusion Princicple" },
 	{ "id": "APS", "title": "Amazing Prime Sequence", "keywords": "number theory, sieve" },
 	{ "id": "AFS", "title": "Amazing Factor Sequence", "keywords": "number theory, sieve, multiplicative function" },
-	{ "id": "IITD4", "title": "Divisor Summation Powered", "keywords": "number theory, repeated squaring multiplication" }
+	{ "id": "IITD4", "title": "Divisor Summation Powered", "keywords": "number theory, repeated squaring multiplication" },
+	{ "id": "KPEQU", "title": "Equation", "keywords": "number theory, divisors, primes" }
 ]
