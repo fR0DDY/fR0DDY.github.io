@@ -132,5 +132,9 @@
 	{ "id": "APS", "title": "Amazing Prime Sequence", "keywords": "number theory, sieve" },
 	{ "id": "AFS", "title": "Amazing Factor Sequence", "keywords": "number theory, sieve, multiplicative function" },
 	{ "id": "IITD4", "title": "Divisor Summation Powered", "keywords": "number theory, repeated squaring multiplication" },
-	{ "id": "KPEQU", "title": "Equation", "keywords": "number theory, divisors, primes" }
+	{ "id": "KPEQU", "title": "Equation", "keywords": "number theory, divisors, primes" },
+	{ "id": "INVCNT", "title": "Inversion Count", "keywords": "Binary Indexed Tree (BIT)" },
+	{ "id": "MCHAOS", "title": "Chaos Strings", "keywords": "Binary Indexed Tree (BIT)" },
+	{ "id": "YODANESS", "title": "Yodaness Level", "keywords": "Binary Indexed Tree (BIT)" },
+	{ "id": "HORRIBLE", "title": "Horrible Queries", "keywords": "Binary Indexed Tree (BIT), range update" }
 ]
