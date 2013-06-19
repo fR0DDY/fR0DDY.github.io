@@ -158,5 +158,6 @@
 	{ "id": 353, "title": "Pesky Palindromes", "keywords": "ad-hoc, string matching" },
 	{ "id": 455, "title": "Periodic Strings", "keywords": "ad-hoc, string matching, KMP" },
 	{ "id": 10298, "title": "Power Strings", "keywords": "ad-hoc, string matching, KMP" },
-	{ "id": 644, "title": "Immediate Decodability", "keywords": "ad-hoc, string matching" }
+	{ "id": 644, "title": "Immediate Decodability", "keywords": "ad-hoc, string matching" },
+	{ "id": 10154, "title": "Weights and Measures ", "keywords": "DP" }
 ]

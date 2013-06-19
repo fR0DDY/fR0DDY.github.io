@@ -136,5 +136,7 @@
 	{ "id": "INVCNT", "title": "Inversion Count", "keywords": "Binary Indexed Tree (BIT)" },
 	{ "id": "MCHAOS", "title": "Chaos Strings", "keywords": "Binary Indexed Tree (BIT)" },
 	{ "id": "YODANESS", "title": "Yodaness Level", "keywords": "Binary Indexed Tree (BIT)" },
-	{ "id": "HORRIBLE", "title": "Horrible Queries", "keywords": "Binary Indexed Tree (BIT), range update" }
+	{ "id": "HORRIBLE", "title": "Horrible Queries", "keywords": "Binary Indexed Tree (BIT), range update" },
+	{ "id": "AFS2", "title": "Amazing Factor Sequence (medium)", "keywords": "number theory, Sum of Divisor Function" },
+	{ "id": "AFSK", "title": "Power Factor Sum Sum (hard)", "keywords": "number theory, Sum of Divisor Function, Sum Of Powers" }
 ]
