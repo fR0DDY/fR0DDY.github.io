@@ -138,5 +138,11 @@
 	{ "id": "YODANESS", "title": "Yodaness Level", "keywords": "Binary Indexed Tree (BIT)" },
 	{ "id": "HORRIBLE", "title": "Horrible Queries", "keywords": "Binary Indexed Tree (BIT), range update" },
 	{ "id": "AFS2", "title": "Amazing Factor Sequence (medium)", "keywords": "number theory, Sum of Divisor Function" },
-	{ "id": "AFSK", "title": "Power Factor Sum Sum (hard)", "keywords": "number theory, Sum of Divisor Function, Sum Of Powers" }
+	{ "id": "AFSK", "title": "Power Factor Sum Sum (hard)", "keywords": "number theory, Sum of Divisor Function, Sum Of Powers" },
+	{ "id": "CSQUARE", "title": "Powered and Squared", "keywords": "repeated cubic multiplication" },
+	{ "id": "PTIME", "title": "Prime Time", "keywords": "easy, number theory" },
+	{ "id": "DCEPCA03", "title": "Totient Extreme", "keywords": "number theory, multiplicative function" },
+	{ "id": "HNUMBERS", "title": "HNumbers", "keywords": "number theory, factorization, Inclusion-Exclusion Princicple" },
+	{ "id": "LCPC11B", "title": "Co-Prime", "keywords": "number theory, factorization, Inclusion-Exclusion Princicple" },
+	{ "id": "EASYMATH", "title": "EASY MATH", "keywords": "number theory, gcd, Inclusion-Exclusion Princicple" }
 ]
