@@ -1,0 +1,81 @@
+<head>
+	<meta charset="utf-8">
+    <meta name="author" content="fR0DDY">
+	<title>Visual Proofs - Pythagorean theorem</title>
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/app.css">
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-40553602-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top app-nav">
+        <div class="container">
+            <a href="../../index.html" class="navbar-brand">fR0DDY</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../../index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Computer Science <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="../../cs/online-judge-hints.html">Online Judge Hints</a></li>
+                        </ul>
+                    </li>
+                    <li class="active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mathematics <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="../visual-proofs.html">Visual Proofs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="app-header">
+        <div class="container">
+            <h1>Pythagorean theorem</h1>
+            <p>In any right-angled triangle, the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares whose sides are the two legs (the two sides that meet at a right angle).</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 app-sidebar">
+                    <ul class="nav app-sidenav">
+                        <li>
+                            <a href="#proof1">Proof 1</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="col-lg-9">
+                <div class="page-header">
+                    <h1 id="proof1">Proof 1</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-offset-4">
+                        <img class="thumbnail" src="img/pythagorean-theorem-proof-1.png" alt="Proof 1">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-offset-4">
+                        <p><em>c<sup>2</sup></em> = Area(red square) = <em>(a + b)<sup>2</sup></em> - 4 * (ab / 2)</p>
+                        <p><em>c<sup>2</sup></em> = <em>a<sup>2</sup></em> + 2ab + <em>b<sup>2</sup></em> - 2ab</p>
+                        <p><em>c<sup>2</sup></em> = <em>a<sup>2</sup></em> + <em>b<sup>2</sup></em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,7 +1,8 @@
+
 <div ng-controller="SPOJListCtrl">
 	<h2>Sphere Online Judge</h2>
 	<p>Hints for {{problems.length}} problems of {{problems.length}} solved problems.</p>
-	<input type="text" ng-model="search" class="input-xxlarge" placeholder="Search">
+	<input type="text" ng-model="search" class="form-control input-small" placeholder="Search">
 	<table class="table table-striped">
 		<thead>
 			<tr>
@@ -16,7 +17,7 @@
 				<td>{{problem.id}}</td>
 	 			<td>{{problem.title}}</td>
 	 			<td>{{problem.keywords}}</td>
-	 			<td><a href="{{getURL(problem.id)}}" target="_blank" title="Problem"><i class="icon-globe"></i></a> <a href="http://www.spoj.com/forum/search.php?keywords={{problem.id}}" target="_blank" title="Forum"><i class="icon-question-sign"></i></a></td>
+	 			<td><a href="{{getURL(problem.id)}}" target="_blank" title="Problem" style="text-decoration: none; color: inherit"><span class="glyphicon glyphicon-globe"></a> <a href="http://www.spoj.com/forum/search.php?keywords={{problem.id}}" target="_blank" title="Forum" style="text-decoration: none; color: inherit"><span class="glyphicon glyphicon-question-sign"></span></a></td>
 			</tr>
 		</tbody>
 	</table>
