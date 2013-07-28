@@ -46,12 +46,14 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 app-sidebar" ng-controller="ojAppCtrl">
+            <div class="col-lg-3" ng-controller="ojAppCtrl">
+                <div class="app-sidebar affix">
                     <ul class="nav app-sidenav">
                         <li ng-repeat="oj in ojs" class="{{oj.cls}}">
                             <a ng-click="func()"> {{oj.name}}</a>
                         </li>
                     </ul>
+                </div>
             </div>
             <div class="col-lg-9" ng-view></div>
         </div>
