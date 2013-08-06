@@ -144,5 +144,8 @@
 	{ "id": "DCEPCA03", "title": "Totient Extreme", "keywords": "number theory, multiplicative function" },
 	{ "id": "HNUMBERS", "title": "HNumbers", "keywords": "number theory, factorization, Inclusion-Exclusion Princicple" },
 	{ "id": "LCPC11B", "title": "Co-Prime", "keywords": "number theory, factorization, Inclusion-Exclusion Princicple" },
-	{ "id": "EASYMATH", "title": "EASY MATH", "keywords": "number theory, gcd, Inclusion-Exclusion Princicple" }
+	{ "id": "EASYMATH", "title": "EASY MATH", "keywords": "number theory, gcd, Inclusion-Exclusion Princicple" },
+	{ "id": "POWERPHI", "title": "Power of Phi(medium)", "keywords": "number theory, fast matrix multiplication" },
+	{ "id": "PARCARD1", "title": "Partition function (EASY)", "keywords": "number theory, Partition Function" },
+	{ "id": "FRS2", "title": "Fibonaccibonacci (easy)", "keywords": "number theory, Pisano Period, fast matrix multiplication" }
 ]
