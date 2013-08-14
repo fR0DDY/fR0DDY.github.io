@@ -147,5 +147,6 @@
 	{ "id": "EASYMATH", "title": "EASY MATH", "keywords": "number theory, gcd, Inclusion-Exclusion Princicple" },
 	{ "id": "POWERPHI", "title": "Power of Phi(medium)", "keywords": "number theory, fast matrix multiplication" },
 	{ "id": "PARCARD1", "title": "Partition function (EASY)", "keywords": "number theory, Partition Function" },
-	{ "id": "FRS2", "title": "Fibonaccibonacci (easy)", "keywords": "number theory, Pisano Period, fast matrix multiplication" }
+	{ "id": "FRS2", "title": "Fibonaccibonacci (easy)", "keywords": "number theory, Pisano Period, fast matrix multiplication" },
+	{ "id": "FANCY", "title": "FANCY NUMBERS", "keywords": "number theory, ordered partitions of n" }
 ]
