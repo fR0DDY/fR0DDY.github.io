@@ -148,5 +148,9 @@
 	{ "id": "POWERPHI", "title": "Power of Phi(medium)", "keywords": "number theory, fast matrix multiplication" },
 	{ "id": "PARCARD1", "title": "Partition function (EASY)", "keywords": "number theory, Partition Function" },
 	{ "id": "FRS2", "title": "Fibonaccibonacci (easy)", "keywords": "number theory, Pisano Period, fast matrix multiplication" },
-	{ "id": "FANCY", "title": "FANCY NUMBERS", "keywords": "number theory, ordered partitions of n" }
+	{ "id": "FANCY", "title": "FANCY NUMBERS", "keywords": "number theory, ordered partitions of n" },
+	{ "id": "FACTMUL", "title": "Product of factorials", "keywords": "number theory, mod multiplication" },
+	{ "id": "IITKWPCB", "title": "Check the coprimeness", "keywords": "number theory, easy" },
+	{ "id": "MCUR98", "title": "Self Numbers", "keywords": "number theory, DP" },
+	{ "id": "HARSHAD", "title": "Devlali Numbers", "keywords": "number theory, primes, DP, binary search" }
 ]
