@@ -152,5 +152,7 @@
 	{ "id": "FACTMUL", "title": "Product of factorials", "keywords": "number theory, mod multiplication" },
 	{ "id": "IITKWPCB", "title": "Check the coprimeness", "keywords": "number theory, easy" },
 	{ "id": "MCUR98", "title": "Self Numbers", "keywords": "number theory, DP" },
-	{ "id": "HARSHAD", "title": "Devlali Numbers", "keywords": "number theory, primes, DP, binary search" }
+	{ "id": "HARSHAD", "title": "Devlali Numbers", "keywords": "number theory, primes, DP, binary search" },
+	{ "id": "MAXSUB", "title": "Maximum Subset of Array", "keywords": "ad-hoc, math, repeated squaring multiplication" },
+	{ "id": "TAP2013H", "title": "Horace and his primes", "keywords": "number theory, sieve, additive function, binary search" }
 ]
