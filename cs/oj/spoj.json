@@ -157,5 +157,6 @@
 	{ "id": "TAP2013H", "title": "Horace and his primes", "keywords": "number theory, sieve, additive function, binary search" },
 	{ "id": "DCEPC11B", "title": "Boring Factorials", "keywords": "number theory, Wilson's theorem, inverse modulo" },
 	{ "id": "RMID", "title": "Running Median", "keywords": "data structure" },
-	{ "id": "RMID2", "title": "Running Median Again", "keywords": "data structure" }
+	{ "id": "RMID2", "title": "Running Median Again", "keywords": "data structure" },
+	{ "id": "EC_DIVS", "title": "Divisors", "keywords": "number theory, precalculation, divisors" }
 ]
