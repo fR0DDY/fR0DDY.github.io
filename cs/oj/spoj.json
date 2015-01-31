@@ -159,5 +159,8 @@
 	{ "id": "RMID2", "title": "Running Median Again", "keywords": "data structure" },
 	{ "id": "EC_DIVS", "title": "Divisors", "keywords": "number theory, precalculation, divisors" },
 	{ "id": "NBIN", "title": "New Binary", "keywords": "math, fibonacci numbers" },
-	{ "id": "POWERUP", "title": "Power the Power Up", "keywords": "math, Fermat's little theorem" }
+	{ "id": "POWERUP", "title": "Power the Power Up", "keywords": "math, Fermat's little theorem" },
+	{ "id": "SUMPRO", "title": "SUM OF PRODUCT", "keywords": "number theory, Sum of Divisor Function" },
+	{ "id": "SMALL", "title": "Smallest Number", "keywords": "LCM, sieve" },
+	{ "id": "SMALLM", "title": "Smallest Number (medium)", "keywords": "LCM, sieve" }
 ]
