@@ -162,5 +162,7 @@
 	{ "id": "POWERUP", "title": "Power the Power Up", "keywords": "math, Fermat's little theorem" },
 	{ "id": "SUMPRO", "title": "SUM OF PRODUCT", "keywords": "number theory, Sum of Divisor Function" },
 	{ "id": "SMALL", "title": "Smallest Number", "keywords": "LCM, sieve" },
-	{ "id": "SMALLM", "title": "Smallest Number (medium)", "keywords": "LCM, sieve" }
+	{ "id": "SMALLM", "title": "Smallest Number (medium)", "keywords": "LCM, sieve" },
+	{ "id": "DIVFACT", "title": "Divisors of factorial", "keywords": "number theory, primes, divisors" },
+	{ "id": "DIVFACT", "title": "Divisors of factorial", "keywords": "number theory, primes, divisors" }
 ]
