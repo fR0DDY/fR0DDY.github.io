@@ -166,5 +166,7 @@
 	{ "id": "DIVFACT", "title": "Divisors of factorial", "keywords": "number theory, primes, divisors" },
 	{ "id": "DIVFACT3", "title": "Divisors of factorial (hard)", "keywords": "number theory, primes, divisors" },
 	{ "id": "ETFD", "title": "Euler Totient Function Depth", "keywords": "number theory, multiplicative function, binary search" },
-	{ "id": "ETFS", "title": "Euler Totient Function Sieve", "keywords": "number theory, multiplicative function, sieve" }
+	{ "id": "ETFS", "title": "Euler Totient Function Sieve", "keywords": "number theory, multiplicative function, sieve" },
+	{ "id": "TIP1", "title": "Totient in permutation (easy)", "keywords": "number theory, multiplicative function, sieve" },
+	{ "id": "EASYFACT", "title": "Easy Factorials", "keywords": "number theory, primes, divisors" }
 ]
