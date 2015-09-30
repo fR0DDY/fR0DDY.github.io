@@ -168,5 +168,6 @@
 	{ "id": "ETFD", "title": "Euler Totient Function Depth", "keywords": "number theory, multiplicative function, binary search" },
 	{ "id": "ETFS", "title": "Euler Totient Function Sieve", "keywords": "number theory, multiplicative function, sieve" },
 	{ "id": "TIP1", "title": "Totient in permutation (easy)", "keywords": "number theory, multiplicative function, sieve" },
-	{ "id": "EASYFACT", "title": "Easy Factorials", "keywords": "number theory, primes, divisors" }
+	{ "id": "EASYFACT", "title": "Easy Factorials", "keywords": "number theory, primes, divisors" },
+	{ "id": "KBASEEN", "title": "Acceptable numbers", "keywords": "number theory, fast matrix multiplication" }
 ]
