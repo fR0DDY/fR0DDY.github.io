@@ -170,5 +170,6 @@
 	{ "id": "TIP1", "title": "Totient in permutation (easy)", "keywords": "number theory, multiplicative function, sieve" },
 	{ "id": "EASYFACT", "title": "Easy Factorials", "keywords": "number theory, primes, divisors" },
 	{ "id": "INS14G", "title": "Kill them All", "keywords": "number theory, formula, modular multiplicative inverse" },
-	{ "id": "KBASEEN", "title": "Acceptable numbers", "keywords": "number theory, fast matrix multiplication" }
+	{ "id": "KBASEEN", "title": "Acceptable numbers", "keywords": "number theory, fast matrix multiplication" },
+	{ "id": "FCDC", "title": "Factorial Modulo", "keywords": "easy, number theory" }
 ]
