@@ -173,5 +173,7 @@
 	{ "id": "KBASEEN", "title": "Acceptable numbers", "keywords": "number theory, fast matrix multiplication" },
 	{ "id": "FCDC", "title": "Factorial Modulo", "keywords": "easy, number theory" },
 	{ "id": "FACTDIV", "title": "Factorial and divisorss", "keywords": "number theory, primes, divisors" },
-	{ "id": "SAMER08D", "title": "DNA Sequences", "keywords": "DP" }
+	{ "id": "SAMER08D", "title": "DNA Sequences", "keywords": "DP" },
+	{ "id": "MARTIAN", "title": "Martian Mining", "keywords": "DP" },
+	{ "id": "MIXTURES", "title": "Mixtures", "keywords": "DP" }
 ]
