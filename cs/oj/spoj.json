@@ -175,5 +175,9 @@
 	{ "id": "FACTDIV", "title": "Factorial and divisorss", "keywords": "number theory, primes, divisors" },
 	{ "id": "SAMER08D", "title": "DNA Sequences", "keywords": "DP" },
 	{ "id": "MARTIAN", "title": "Martian Mining", "keywords": "DP" },
-	{ "id": "MIXTURES", "title": "Mixtures", "keywords": "DP" }
+	{ "id": "MIXTURES", "title": "Mixtures", "keywords": "DP" },
+	{ "id": "GSS1", "title": "Can you answer these queries I", "keywords": "data structure, segment tree" },
+	{ "id": "GSS3", "title": "Can you answer these queries III", "keywords": "data structure, segment tree" },
+	{ "id": "KGSS", "title": "Maximum Sum", "keywords": "data structure, segment tree" },
+	{ "id": "BRCKTS", "title": "Brackets", "keywords": "data structure, segment tree" }
 ]
