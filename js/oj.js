@@ -17,15 +17,15 @@ angular.module('ojServices', ['ngResource']).
 });
 
 function ojAppCtrl($scope, $location) {
-	$scope.ojs = [ {name:'UVA', cls: ''},
-					{name: 'SPOJ', cls: ''},
-					{name: 'Project Euler', cls: ''}];
+	$scope.ojs = [ {name:'UVA', url: 'uva', cls: ''},
+					{name: 'SPOJ', url: 'spoj', cls: ''},
+					{name: 'Project Euler', url: 'pe', cls: ''}];
 
 	var oldtopic= "";
 	
 	$scope.func = function(){
 		$scope.ojs.forEach(function(oj) {oj.cls = ''});
-		var newTopic = this.oj.name.toLowerCase();
+		var newTopic = this.oj.url.toLowerCase();
 		if(newTopic !== oldtopic) {
 			$location.path(newTopic);
 			this.oj.cls = 'active';
