@@ -1,4 +1,5 @@
 [
 	{ "id": 75, "title": "Singular integer right triangles", "keywords": "Primitive Pythagorean Triples" },
-	{ "id": 549, "title": "Divisibility of factorials", "keywords": "Kempner numbers, sieve" }
+	{ "id": 549, "title": "Divisibility of factorials", "keywords": "Kempner numbers, sieve" },
+	{ "id": 387, "title": "Harshad Numbers", "keywords": "DFS, primality testing" }
 ]
