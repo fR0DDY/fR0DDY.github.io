@@ -22,4 +22,220 @@
 	"keywords": "brute force, implementation, math",
 	"solution": "http://codeforces.com/contest/9/submission/41063",
 	"url": "http://codeforces.com/problemset/problem/9/C"
+}, {
+	"id": "9D",
+	"title": "How many trees?",
+	"keywords": "combinatorics, divide and conquer, DP",
+	"solution": "http://codeforces.com/contest/9/submission/41674",
+	"url": "http://codeforces.com/problemset/problem/9/D"
+}, {
+	"id": "10A",
+	"title": "Power Consumption Calculation",
+	"keywords": "implementation",
+	"solution": "http://codeforces.com/contest/10/submission/44041",
+	"url": "http://codeforces.com/problemset/problem/10/A"
+}, {
+	"id": "11A",
+	"title": "Increasing Sequence",
+	"keywords": "constructive algorithms, implementation, math",
+	"solution": "http://codeforces.com/contest/11/submission/47181",
+	"url": "http://codeforces.com/problemset/problem/11/A"
+}, {
+	"id": "11B",
+	"title": "Jumping Jack",
+	"keywords": "math",
+	"solution": "http://codeforces.com/contest/11/submission/48080",
+	"url": "http://codeforces.com/problemset/problem/11/B"
+}, {
+	"id": "12A",
+	"title": "Super Agent",
+	"keywords": "implementation",
+	"solution": "http://codeforces.com/contest/12/submission/51132",
+	"url": "http://codeforces.com/problemset/problem/12/A"
+}, {
+	"id": "12B",
+	"title": "Correct Solution?",
+	"keywords": "implementation, sortings",
+	"solution": "http://codeforces.com/contest/12/submission/52132",
+	"url": "http://codeforces.com/problemset/problem/12/B"
+}, {
+	"id": "13A",
+	"title": "Numbers",
+	"keywords": "implementation, math",
+	"solution": "http://codeforces.com/contest/13/submission/56287",
+	"url": "http://codeforces.com/problemset/problem/13/A"
+}, {
+	"id": "10D",
+	"title": "LCIS",
+	"keywords": "DP",
+	"solution": "http://codeforces.com/contest/10/submission/46156",
+	"url": "http://codeforces.com/problemset/problem/10/D"
+}, {
+	"id": "16A",
+	"title": "Flag",
+	"keywords": "implementation",
+	"solution": "http://codeforces.com/contest/16/submission/69679",
+	"url": "http://codeforces.com/problemset/problem/16/A"
+}, {
+	"id": "16B",
+	"title": "Burglar and Matches",
+	"keywords": "greedy, implementation, sortings",
+	"solution": "http://codeforces.com/contest/16/submission/70253",
+	"url": "http://codeforces.com/problemset/problem/16/B"
+}, {
+	"id": "16C",
+	"title": "Monitor",
+	"keywords": "binary search, number theory",
+	"solution": "http://codeforces.com/contest/16/submission/71676",
+	"url": "http://codeforces.com/problemset/problem/16/C"
+}, {
+	"id": "11D",
+	"title": "A Simple Task",
+	"keywords": "bitmasks, DP, graphs",
+	"solution": "http://codeforces.com/contest/11/submission/49996",
+	"url": "http://codeforces.com/problemset/problem/11/D"
+}, {
+	"id": "16E",
+	"title": "Fish",
+	"keywords": "bitmasks, DP, probabilities",
+	"solution": "http://codeforces.com/contest/16/submission/73549",
+	"url": "http://codeforces.com/problemset/problem/16/E"
+}, {
+	"id": "14A",
+	"title": "Letter",
+	"keywords": "implementation",
+	"solution": "http://codeforces.com/contest/14/submission/64742",
+	"url": "http://codeforces.com/problemset/problem/14/A"
+}, {
+	"id": "27A",
+	"title": "Next Test",
+	"keywords": "implementation, sortings",
+	"solution": "http://codeforces.com/contest/27/submission/117222",
+	"url": "http://codeforces.com/problemset/problem/27/A"
+}, {
+	"id": "27B",
+	"title": "Tournament",
+	"keywords": "bitmasks, brute force, dfs and similar, greedy",
+	"solution": "http://codeforces.com/contest/27/submission/118009",
+	"url": "http://codeforces.com/problemset/problem/27/B"
+}, {
+	"id": "37A",
+	"title": "Towers",
+	"keywords": "sortings",
+	"solution": "http://codeforces.com/contest/37/submission/165825",
+	"url": "http://codeforces.com/problemset/problem/37/A"
+}, {
+	"id": "68A",
+	"title": "Irrational problem",
+	"keywords": "implementation, number theory",
+	"solution": "http://codeforces.com/contest/68/submission/340950",
+	"url": "http://codeforces.com/problemset/problem/68/A"
+}, {
+	"id": "100A",
+	"title": "Carpeting the Room",
+	"keywords": "implementation",
+	"solution": "http://codeforces.com/contest/100/submission/570391",
+	"url": "http://codeforces.com/problemset/problem/100/A"
+}, {
+	"id": "100C",
+	"title": "A+B",
+	"keywords": "implementation",
+	"solution": "http://codeforces.com/contest/100/submission/570763",
+	"url": "http://codeforces.com/problemset/problem/100/C"
+}, {
+	"id": "100B",
+	"title": "Friendly Numbers",
+	"keywords": "implementation",
+	"solution": "http://codeforces.com/contest/100/submission/571073",
+	"url": "http://codeforces.com/problemset/problem/100/B"
+}, {
+	"id": "100I",
+	"title": "Rotation",
+	"keywords": "geometry, math",
+	"solution": "http://codeforces.com/contest/100/submission/571433",
+	"url": "http://codeforces.com/problemset/problem/100/I"
+}, {
+	"id": "100D",
+	"title": "World of Mouth",
+	"keywords": "strings",
+	"solution": "http://codeforces.com/contest/100/submission/571666",
+	"url": "http://codeforces.com/problemset/problem/100/D"
+}, {
+	"id": "108A",
+	"title": "Palindromic Times",
+	"keywords": "implementation, strings",
+	"solution": "http://codeforces.com/contest/108/submission/627836",
+	"url": "http://codeforces.com/problemset/problem/108/A"
+}, {
+	"id": "112A",
+	"title": "Petya and Strings",
+	"keywords": "implementation, strings",
+	"solution": "http://codeforces.com/contest/112/submission/658275",
+	"url": "http://codeforces.com/problemset/problem/112/A"
+}, {
+	"id": "112B",
+	"title": "Petya and Square",
+	"keywords": "implementation, strings",
+	"solution": "http://codeforces.com/contest/112/submission/663547",
+	"url": "http://codeforces.com/problemset/problem/112/B"
+}, {
+	"id": "112C",
+	"title": "Petya and Inequiations",
+	"keywords": "greedy, math",
+	"solution": "http://codeforces.com/contest/112/submission/664331",
+	"url": "http://codeforces.com/problemset/problem/112/C"
+}, {
+	"id": "114A",
+	"title": "Cifera",
+	"keywords": "math",
+	"solution": "http://codeforces.com/contest/114/submission/674452",
+	"url": "http://codeforces.com/problemset/problem/114/A"
+}, {
+	"id": "114B",
+	"title": "PFAST Inc.",
+	"keywords": "bitmasks, brute force",
+	"solution": "http://codeforces.com/contest/114/submission/682338",
+	"url": "http://codeforces.com/problemset/problem/114/B"
+}, {
+	"id": "114E",
+	"title": "Double Happiness",
+	"keywords": "number theory",
+	"solution": "http://codeforces.com/contest/114/submission/682807",
+	"url": "http://codeforces.com/problemset/problem/114/E"
+}, {
+	"id": "116A",
+	"title": "Tram",
+	"keywords": "implementation",
+	"solution": "http://codeforces.com/contest/116/submission/696065",
+	"url": "http://codeforces.com/problemset/problem/116/A"
+}, {
+	"id": "116B",
+	"title": "Little Pigs and Wolves",
+	"keywords": "greedy, implementation",
+	"solution": "http://codeforces.com/contest/116/submission/699129",
+	"url": "http://codeforces.com/problemset/problem/116/B"
+}, {
+	"id": "155A",
+	"title": "I_love_%username%",
+	"keywords": "brute force",
+	"solution": "http://codeforces.com/contest/155/submission/1221467",
+	"url": "http://codeforces.com/problemset/problem/155/A"
+}, {
+	"id": "155B",
+	"title": "Combination",
+	"keywords": "greedy, sortings",
+	"solution": "http://codeforces.com/contest/155/submission/1223499",
+	"url": "http://codeforces.com/problemset/problem/155/B"
+}, {
+	"id": "160A",
+	"title": "Twins",
+	"keywords": "greedy, sortings",
+	"solution": "http://codeforces.com/contest/160/submission/1295471",
+	"url": "http://codeforces.com/problemset/problem/160/A"
+}, {
+	"id": "160B",
+	"title": "Unlucky Ticket",
+	"keywords": "greedy, sortings",
+	"solution": "http://codeforces.com/contest/160/submission/1296947",
+	"url": "http://codeforces.com/problemset/problem/160/B"
 }]
