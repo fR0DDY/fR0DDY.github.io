@@ -1,0 +1,25 @@
+[{
+	"id": "1A",
+	"title": "Theatre Square",
+	"keywords": "math",
+	"solution": "http://codeforces.com/contest/1/submission/976",
+	"url": "http://codeforces.com/problemset/problem/1/A"
+}, {
+	"id": "9A",
+	"title": "Die Roll",
+	"keywords": "math, probabilities",
+	"solution": "http://codeforces.com/contest/9/submission/38867",
+	"url": "http://codeforces.com/problemset/problem/9/A"
+}, {
+	"id": "9B",
+	"title": "Running Student",
+	"keywords": "brute force, geometry, implementation",
+	"solution": "http://codeforces.com/contest/9/submission/39683",
+	"url": "http://codeforces.com/problemset/problem/9/B"
+}, {
+	"id": "9C",
+	"title": "Hexadecimal's Numbers",
+	"keywords": "brute force, implementation, math",
+	"solution": "http://codeforces.com/contest/9/submission/41063",
+	"url": "http://codeforces.com/problemset/problem/9/C"
+}]

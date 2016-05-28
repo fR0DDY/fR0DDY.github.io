@@ -6,6 +6,7 @@ ojApp.config(function($routeProvider) {
 	when('/uva', {controller: ojAppCtrl, templateUrl: 'oj/uva.html'} ).//
 	when('/pe', {controller: ojAppCtrl, templateUrl: 'oj/pe.html'} ).//
 	when('/codechef', {controller: ojAppCtrl, templateUrl: 'oj/codechef.html'} ).//
+	when('/codeforces', {controller: ojAppCtrl, templateUrl: 'oj/codeforces.html'} ).//
 	otherwise({redirectTo:'/'});
 });
 
@@ -21,7 +22,8 @@ function ojAppCtrl($scope, $location) {
 	$scope.ojs = [ {name:'UVA', url: 'uva', cls: ''},
 					{name: 'SPOJ', url: 'spoj', cls: ''},
 					{name: 'Project Euler', url: 'pe', cls: ''},
-					{name: 'Codechef', url: 'codechef', cls: ''}];
+					{name: 'Codechef', url: 'codechef', cls: ''},
+					{name: 'Codeforces', url: 'codeforces', cls: ''}];
 
 	var oldtopic= "";
 	
@@ -70,4 +72,9 @@ function CodechefListCtrl($scope, Problems) {
   $scope.getURL = function(id) {
   	return "https://www.codechef.com/problems/" + id;
   }
+}
+
+function CodeforcesListCtrl($scope, Problems) {
+  $scope.problems = Problems.query({ojId: "codeforces"});
+  $scope.orderProp = 'id';
 }
