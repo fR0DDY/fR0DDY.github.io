@@ -1,5 +1,7 @@
 [
 	{ "id": 75, "title": "Singular integer right triangles", "keywords": "Primitive Pythagorean Triples" },
 	{ "id": 549, "title": "Divisibility of factorials", "keywords": "Kempner numbers, sieve" },
-	{ "id": 387, "title": "Harshad Numbers", "keywords": "DFS, primality testing" }
+	{ "id": 387, "title": "Harshad Numbers", "keywords": "DFS, primality testing" },
+	{ "id": 429, "title": "Sum of squares of unitary divisors", "keywords": "number theory, prime sieve, fast modulo" },
+	{ "id": 516, "title": "5-smooth totients", "keywords": "number theory, Euler's totient function, recursion" }
 ]
