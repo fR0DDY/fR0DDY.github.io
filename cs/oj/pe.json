@@ -22,5 +22,9 @@
 	{ "id": 13, "title": "Large sum", "keywords": "BigInteger" },
 	{ "id": 14, "title": "Longest Collatz sequence", "keywords": "memoization" },
 	{ "id": 17, "title": "Number letter counts", "keywords": "brute force" },
-	{ "id": 20, "title": "Factorial digit sum", "keywords": "BigInteger" }
+	{ "id": 20, "title": "Factorial digit sum", "keywords": "BigInteger" },
+	{ "id": 18, "title": "Maximum path sum I", "keywords": "DP" },
+	{ "id": 67, "title": "Maximum path sum II", "keywords": "DP" },
+	{ "id": 19, "title": "Counting Sundays", "keywords": "Zeller's congruence" },
+	{ "id": 9, "title": "Special Pythagorean triplet", "keywords": "Pythagorean triplets" }
 ]
