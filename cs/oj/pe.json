@@ -26,5 +26,8 @@
 	{ "id": 18, "title": "Maximum path sum I", "keywords": "DP" },
 	{ "id": 67, "title": "Maximum path sum II", "keywords": "DP" },
 	{ "id": 19, "title": "Counting Sundays", "keywords": "Zeller's congruence" },
-	{ "id": 9, "title": "Special Pythagorean triplet", "keywords": "Pythagorean triplets" }
+	{ "id": 9, "title": "Special Pythagorean triplet", "keywords": "Pythagorean triplets" },
+	{ "id": 183, "title": "Maximum product of parts", "keywords": "maxima using derivative, terminating fraction property" },
+	{ "id": 196, "title": "Prime triplets", "keywords": "segmented sieve" },
+	{ "id": 531, "title": "Chinese leftovers", "keywords": "Chinese remainder theorem, Extended Euclidean algorithm" }
 ]
