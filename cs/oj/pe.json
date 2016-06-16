@@ -29,5 +29,8 @@
 	{ "id": 9, "title": "Special Pythagorean triplet", "keywords": "Pythagorean triplets" },
 	{ "id": 183, "title": "Maximum product of parts", "keywords": "maxima using derivative, terminating fraction property" },
 	{ "id": 196, "title": "Prime triplets", "keywords": "segmented sieve" },
-	{ "id": 531, "title": "Chinese leftovers", "keywords": "Chinese remainder theorem, Extended Euclidean algorithm" }
+	{ "id": 531, "title": "Chinese leftovers", "keywords": "multiplicative function, Chinese remainder theorem, Extended Euclidean algorithm" },
+	{ "id": 21, "title": "Amicable numbers", "keywords": "multiplicative function, sieve" },
+	{ "id": 22, "title": "Names scores", "keywords": "brute force, sorting" },
+	{ "id": 23, "title": "Non-abundant sums", "keywords": "multiplicative function, sieve" }
 ]
