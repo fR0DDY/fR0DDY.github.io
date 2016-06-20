@@ -32,5 +32,12 @@
 	{ "id": 531, "title": "Chinese leftovers", "keywords": "multiplicative function, Chinese remainder theorem, Extended Euclidean algorithm" },
 	{ "id": 21, "title": "Amicable numbers", "keywords": "multiplicative function, sieve" },
 	{ "id": 22, "title": "Names scores", "keywords": "brute force, sorting" },
-	{ "id": 23, "title": "Non-abundant sums", "keywords": "multiplicative function, sieve" }
+	{ "id": 23, "title": "Non-abundant sums", "keywords": "multiplicative function, sieve" },
+	{ "id": 24, "title": "Lexicographic permutations", "keywords": "factorial, recursion" },
+	{ "id": 25, "title": "1000-digit Fibonacci number", "keywords": "number of digits in an integer, Binet's formula" },
+	{ "id": 26, "title": "Reciprocal cycles", "keywords": "terminating fraction property, reptend primes" },
+	{ "id": 27, "title": "Quadratic primes", "keywords": "sieve, brute force" },
+	{ "id": 28, "title": "Number spiral diagonals", "keywords": "formula" },
+	{ "id": 29, "title": "Distinct powers", "keywords": "number theory" },
+	{ "id": 30, "title": "Digit fifth powers", "keywords": "brute force" }
 ]
