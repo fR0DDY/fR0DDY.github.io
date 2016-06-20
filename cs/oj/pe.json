@@ -39,5 +39,6 @@
 	{ "id": 27, "title": "Quadratic primes", "keywords": "sieve, brute force" },
 	{ "id": 28, "title": "Number spiral diagonals", "keywords": "formula" },
 	{ "id": 29, "title": "Distinct powers", "keywords": "number theory" },
-	{ "id": 30, "title": "Digit fifth powers", "keywords": "brute force" }
+	{ "id": 30, "title": "Digit fifth powers", "keywords": "brute force" },
+	{ "id": 518, "title": "Prime triples and geometric sequences", "keywords": "sieve, divisors, gcd" }
 ]
