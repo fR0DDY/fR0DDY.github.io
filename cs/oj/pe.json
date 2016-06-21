@@ -40,5 +40,10 @@
 	{ "id": 28, "title": "Number spiral diagonals", "keywords": "formula" },
 	{ "id": 29, "title": "Distinct powers", "keywords": "number theory" },
 	{ "id": 30, "title": "Digit fifth powers", "keywords": "brute force" },
-	{ "id": 518, "title": "Prime triples and geometric sequences", "keywords": "sieve, divisors, gcd" }
+	{ "id": 518, "title": "Prime triples and geometric sequences", "keywords": "sieve, divisors, gcd" },
+	{ "id": 34, "title": "Digit factorials", "keywords": "brute force" },
+	{ "id": 35, "title": "Circular primes", "keywords": "sieve, brute force" },
+	{ "id": 37, "title": "Truncatable primes", "keywords": "sieve, brute force" },
+	{ "id": 47, "title": "Distinct primes factors", "keywords": "sieve" },
+	{ "id": 493, "title": "Under The Rainbow", "keywords": "probability" }
 ]
