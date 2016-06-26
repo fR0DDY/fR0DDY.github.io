@@ -45,5 +45,13 @@
 	{ "id": 35, "title": "Circular primes", "keywords": "sieve, brute force" },
 	{ "id": 37, "title": "Truncatable primes", "keywords": "sieve, brute force" },
 	{ "id": 47, "title": "Distinct primes factors", "keywords": "sieve" },
-	{ "id": 493, "title": "Under The Rainbow", "keywords": "probability" }
+	{ "id": 493, "title": "Under The Rainbow", "keywords": "probability" },
+	{ "id": 98, "title": "Anagramic squares", "keywords": "brute force" },
+	{ "id": 31, "title": "Coin sums", "keywords": "DP" },
+	{ "id": 32, "title": "Pandigital products", "keywords": "brute force" },
+	{ "id": 33, "title": "Digit canceling fractions", "keywords": "brute force" },
+	{ "id": 36, "title": "Double-base palindromes", "keywords": "brute force" },
+	{ "id": 38, "title": "Pandigital multiples", "keywords": "brute force" },
+	{ "id": 39, "title": "Integer right triangles", "keywords": "Primitive Pythagorean Triples" },
+	{ "id": 40, "title": "Champernowne's constant", "keywords": "formula" }
 ]
