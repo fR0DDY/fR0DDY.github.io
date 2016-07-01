@@ -53,5 +53,14 @@
 	{ "id": 36, "title": "Double-base palindromes", "keywords": "brute force" },
 	{ "id": 38, "title": "Pandigital multiples", "keywords": "brute force" },
 	{ "id": 39, "title": "Integer right triangles", "keywords": "Primitive Pythagorean Triples" },
-	{ "id": 40, "title": "Champernowne's constant", "keywords": "formula" }
+	{ "id": 40, "title": "Champernowne's constant", "keywords": "formula" },
+	{ "id": 41, "title": "Pandigital prime", "keywords": "sieve, permutations" },
+	{ "id": 42, "title": "Coded triangle numbers", "keywords": "roots of quadratic equation" },
+	{ "id": 43, "title": "Sub-string divisibility", "keywords": "permutations" },
+	{ "id": 44, "title": "Pentagon numbers", "keywords": "data structure" },
+	{ "id": 45, "title": "Triangular, pentagonal, and hexagonal", "keywords": "brute force" },
+	{ "id": 46, "title": "Goldbach's other conjecture", "keywords": "sieve, brute force" },
+	{ "id": 48, "title": "Self powers", "keywords": "Fast Modular Exponentiation" },
+	{ "id": 49, "title": "Prime permutations", "keywords": "sieve, permutations" },
+	{ "id": 50, "title": "Consecutive prime sum", "keywords": "sieve" }
 ]
