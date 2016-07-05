@@ -65,7 +65,7 @@
 	{ "id": 50, "title": "Consecutive prime sum", "keywords": "sieve" },
 	{ "id": 51, "title": "Prime digit replacements", "keywords": "sieve, bit manipulation" },
 	{ "id": 52, "title": "Permuted multiples", "keywords": "brute force" },
-	{ "id": 53, "title": "Combinatoric selections", "keywords": "Combination, recurrence formula" }
+	{ "id": 53, "title": "Combinatoric selections", "keywords": "Combination, recurrence formula" },
 	{ "id": 56, "title": "Powerful digit sum", "keywords": "BigInteger" },
 	{ "id": 55, "title": "Lychrel numbers", "keywords": "brute force" },
 	{ "id": 57, "title": "Square root convergents", "keywords": "brute force, formula" },
