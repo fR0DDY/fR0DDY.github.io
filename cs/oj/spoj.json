@@ -179,5 +179,7 @@
 	{ "id": "GSS1", "title": "Can you answer these queries I", "keywords": "data structure, segment tree" },
 	{ "id": "GSS3", "title": "Can you answer these queries III", "keywords": "data structure, segment tree" },
 	{ "id": "KGSS", "title": "Maximum Sum", "keywords": "data structure, segment tree" },
-	{ "id": "BRCKTS", "title": "Brackets", "keywords": "data structure, segment tree" }
+	{ "id": "BRCKTS", "title": "Brackets", "keywords": "data structure, segment tree" },
+	{ "id": "CUBNUM", "title": "Cube Numbers", "keywords": "DP" },
+	{ "id": "KPRIMESB", "title": "Almost Prime Numbers Again", "keywords": "Inclusion-Exclusion Princicple" }
 ]
