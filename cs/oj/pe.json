@@ -69,5 +69,12 @@
 	{ "id": 56, "title": "Powerful digit sum", "keywords": "BigInteger" },
 	{ "id": 55, "title": "Lychrel numbers", "keywords": "brute force" },
 	{ "id": 57, "title": "Square root convergents", "keywords": "brute force, formula" },
-	{ "id": 146, "title": "Investigating a Prime Pattern", "keywords": "modular arithmetic, miller-rabin primality testing" }
+	{ "id": 146, "title": "Investigating a Prime Pattern", "keywords": "modular arithmetic, miller-rabin primality testing" },
+	{ "id": 69, "title": "Totient maximum", "keywords": "number theory, Euler's totient function, pattern" },
+	{ "id": 58, "title": "Spiral primes", "keywords": "miller-rabin primality testing" },
+	{ "id": 59, "title": "XOR decryption", "keywords": "brute force" },
+	{ "id": 60, "title": "Prime pair sets", "keywords": "sieve, data structure" },
+	{ "id": 61, "title": "Cyclical figurate numbers", "keywords": "brute force, data structure" },
+	{ "id": 62, "title": "Cubic permutations", "keywords": "brute force, data structure" },
+	{ "id": 63, "title": "Powerful digit counts", "keywords": "math" }
 ]
