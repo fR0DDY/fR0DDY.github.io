@@ -181,5 +181,8 @@
 	{ "id": "KGSS", "title": "Maximum Sum", "keywords": "data structure, segment tree" },
 	{ "id": "BRCKTS", "title": "Brackets", "keywords": "data structure, segment tree" },
 	{ "id": "CUBNUM", "title": "Cube Numbers", "keywords": "DP" },
-	{ "id": "KPRIMESB", "title": "Almost Prime Numbers Again", "keywords": "Inclusion-Exclusion Princicple" }
-]
+	{ "id": "KPRIMESB", "title": "Almost Prime Numbers Again", "keywords": "Inclusion-Exclusion Princicple" },
+	{ "id": "CMG", "title": "Collecting Mango", "keywords": "data structure" },
+	{ "id": "BALLSAG", "title": "Ball Stacking Again", "keywords": "DP" },
+	{ "id": "MUL", "title": "Fast Multiplication", "keywords": "BigInteger" }
+]	
