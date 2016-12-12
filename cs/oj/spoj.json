@@ -184,5 +184,9 @@
 	{ "id": "KPRIMESB", "title": "Almost Prime Numbers Again", "keywords": "Inclusion-Exclusion Princicple" },
 	{ "id": "CMG", "title": "Collecting Mango", "keywords": "data structure" },
 	{ "id": "BALLSAG", "title": "Ball Stacking Again", "keywords": "DP" },
-	{ "id": "MUL", "title": "Fast Multiplication", "keywords": "BigInteger" }
+	{ "id": "MUL", "title": "Fast Multiplication", "keywords": "BigInteger" },
+	{ "id": "ANARC09C", "title": "Not So Flat After All", "keywords": "prime factorization" },
+	{ "id": "INCPOWK", "title": "Increasing Powers of K", "keywords": "number theory" },
+	{ "id": "HG", "title": "HUGE GCD", "keywords": "number theory, prime factorization" },
+	{ "id": "PATHEADS", "title": "Patting Heads", "keywords": "bucket and sieve" }
 ]	
