@@ -81,5 +81,7 @@
 	{ "id": 87, "title": "Prime power triples", "keywords": "brute force" },
 	{ "id": 95, "title": "Amicable chains", "keywords": "multiplicative function, sieve" },
 	{ "id": 97, "title": "Large non-Mersenne prime", "keywords": "Fast Modular Exponentiation" },
-	{ "id": 88, "title": "Product-sum numbers", "keywords": "number theory, recursion" }
+	{ "id": 88, "title": "Product-sum numbers", "keywords": "number theory, recursion" },
+	{ "id": 425, "title": "Prime connection", "keywords": "graph theory" },
+	{ "id": 321, "title": "Swapping Counters", "keywords": "pattern, formula, pell equation" }
 ]
