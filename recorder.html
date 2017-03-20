@@ -106,7 +106,15 @@ select {
                 mediaRecorder.stream = stream;
                 mediaRecorder.mimeType = 'audio/pcm';
                 mediaRecorder.audioChannels = 1;
+                mediaRecorder.bufferSize = 4096;
+                var arrayBuffer;
+				var fileReader = new FileReader();
+				fileReader.onload = function() {
+				    arrayBuffer = this.result;
+				};
                 mediaRecorder.ondataavailable = function(blob) {
+                	fileReader.readAsArrayBuffer(blob);
+                	console.log(arrayBuffer);
                     var a = document.createElement('a');
                     a.target = '_blank';
                     a.innerHTML = 'Open Recorded Audio No. ' + (index++) + ' (Size: ' + bytesToSize(blob.size) + ') Time Length: ' + getTimeLength(timeInterval);
@@ -118,7 +126,6 @@ select {
                 var timeInterval = document.querySelector('#time-interval').value;
                 if (timeInterval) timeInterval = parseInt(timeInterval);
                 else timeInterval = 5 * 1000;
-                // get blob after specific time interval
                 mediaRecorder.start(timeInterval);
                 document.querySelector('#stop-recording').disabled = false;
                 document.querySelector('#pause-recording').disabled = false;
