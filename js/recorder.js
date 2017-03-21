@@ -43,7 +43,7 @@ function success(e) {
         if (recordingLength == 4096*20) {
         	recording = false;
         	var http = new XMLHttpRequest();
-        	var url = "http://35.154.209.150:8080/zicly/hfs/";
+        	var url = "https://ancient-beyond-10162.herokuapp.com/zicly/hfs/";
 			http.open("POST", url, true);
 			http.setRequestHeader("Content-type", "application/json");
 
