@@ -12,31 +12,22 @@ if (!navigator.getUserMedia)
     navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia ||
                   navigator.mozGetUserMedia || navigator.msGetUserMedia;
 
-if (navigator.getUserMedia){
+if (navigator.getUserMedia) {
     navigator.getUserMedia({audio:true}, success, function(e) {
     alert('Error capturing audio.');
     });
 } else alert('getUserMedia not supported in this browser.');
 
-function success(e){
-    // creates the audio context
+function success(e) {
     audioContext = window.AudioContext || window.webkitAudioContext;
     context = new audioContext();
 
-	// we query the context sample rate (varies depending on platforms)
     sampleRate = context.sampleRate;
 
-    // console.log(sampleRate);
-
-    // console.log('succcess');
-    
-    // creates a gain node
     volume = context.createGain();
 
-    // creates an audio node from the microphone incoming stream
     audioInput = context.createMediaStreamSource(e);
 
-    // connect the stream to the gain node
     audioInput.connect(volume);
 
     var bufferSize = 4096;
@@ -52,12 +43,12 @@ function success(e){
         if (recordingLength == 4096*20) {
         	recording = false;
         	var http = new XMLHttpRequest();
-        	var url = "http://192.168.0.104:8080/zicly/hfs/";
+        	var url = "http://35.154.209.150:8080/zicly/hfs/";
 			http.open("POST", url, true);
 			http.setRequestHeader("Content-type", "application/json");
 
 			http.onreadystatechange = function() {
-			    if(http.readyState == 4 && http.status == 200) {      
+			    if(http.readyState == 4 && http.status == 200) {
         			toggleRecording(document.getElementById("record"));
 			    }
 			}
