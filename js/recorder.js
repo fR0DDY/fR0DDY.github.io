@@ -24,6 +24,8 @@ function success(e) {
 
     sampleRate = context.sampleRate;
 
+    console.log(sampleRate);
+
     volume = context.createGain();
 
     audioInput = context.createMediaStreamSource(e);
