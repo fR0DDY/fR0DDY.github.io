@@ -13,7 +13,7 @@
 			width: 100%;
 			margin: 0 0;
 		}
-  	#record { position: fixed; top: 40%; left: 45%; }
+  	#controls { position: fixed; top: 40%; left: 45%; }
 	  #record.recording { 
 	    background: red;
 	    background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
@@ -25,6 +25,7 @@
 <body>
   <div id="controls">
     <img id="record" src="img/mic128.png" onclick="toggleRecording(this);">
+    <h1 id="text"></h1>
   </div>
   <script src="./js/recorder.js"></script>
 </body>

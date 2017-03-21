@@ -26,9 +26,9 @@ function success(e){
 	// we query the context sample rate (varies depending on platforms)
     sampleRate = context.sampleRate;
 
-    console.log(sampleRate);
+    // console.log(sampleRate);
 
-    console.log('succcess');
+    // console.log('succcess');
     
     // creates a gain node
     volume = context.createGain();
@@ -49,33 +49,26 @@ function success(e){
         leftchannel.push.apply(leftchannel, convertoFloat32ToInt16(left));
         recordingLength += bufferSize;
 
-        if (recordingLength == 4096*5) {
+        if (recordingLength == 4096*20) {
         	recording = false;
         	var http = new XMLHttpRequest();
         	var url = "http://192.168.0.104:8080/zicly/hfs/";
 			http.open("POST", url, true);
 			http.setRequestHeader("Content-type", "application/json");
 
-			http.onreadystatechange = function() {//Call a function when the state changes.
-				console.log(http.readyState);
-				console.log(http.status);
-			    if(http.readyState == 4 && http.status == 200) {
-			        console.log("readyState: " + http.responseText);
-			        //recording = true;
-					leftchannel.length = 0;
-        			recordingLength = 0;        
+			http.onreadystatechange = function() {
+			    if(http.readyState == 4 && http.status == 200) {      
+        			toggleRecording(document.getElementById("record"));
 			    }
 			}
 			http.onload = function () {
 			    console.log(this.responseText);
+			    document.getElementById("text").innerHTML = JSON.parse(this.responseText)["data"];
 			};
 			http.send(JSON.stringify({
 			    "timestamp": Math.floor(Date.now() / 1000),
 			    "recordedData": leftchannel
 			}));
-        	console.log("leftchannel");
-        	console.log(leftchannel);
-        	
         }
     }
 
