@@ -4,7 +4,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Audio Recorder</title>
   <style>
-  	#record { height: 15vh; }
+  	body { 
+			font: 14pt Arial, sans-serif; 
+			background: lightgrey;
+			display: flex;
+			flex-direction: column;
+			height: 100vh;
+			width: 100%;
+			margin: 0 0;
+		}
+  	#record { position: fixed; top: 40%; left: 45%; }
 	  #record.recording { 
 	    background: red;
 	    background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
@@ -16,7 +25,6 @@
 <body>
   <div id="controls">
     <img id="record" src="img/mic128.png" onclick="toggleRecording(this);">
-    <a id="save" href="#"><img src="img/save.svg"></a>
   </div>
   <script src="./js/recorder.js"></script>
 </body>
