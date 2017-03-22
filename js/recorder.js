@@ -40,7 +40,7 @@ function success(e) {
         if (!recording) return;
         var left = e.inputBuffer.getChannelData (0);
 
-        var resampler = new Resampler(44100, 48000, 1, left);
+        var resampler = new Resampler(sampleRate, 44100, 1, left);
         var resampled = resampler.resampler(4096);
         console.log(resampled);
         console.log(resampler.outputBuffer);
