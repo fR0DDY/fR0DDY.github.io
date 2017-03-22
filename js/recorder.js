@@ -33,17 +33,17 @@ function success(e) {
     audioInput.connect(volume);
 
     var bufferSize = 4096;
+    // var bufferSize = Math.ceil((81920 * sampleRate) / 44100);
     recorder = context.createScriptProcessor(bufferSize, 1, 2);
-
-    var resampler = new Resampler(44100, 48000, 1, new Float32Array(4096));
 
     recorder.onaudioprocess = function(e){
         if (!recording) return;
         var left = e.inputBuffer.getChannelData (0);
 
-        var resampled = resampler.resampler(left);
-
+        var resampler = new Resampler(44100, 48000, 1, left);
+        var resampled = resampler.resampler(4096);
         console.log(resampled);
+        console.log(resampler.outputBuffer);
 
         leftchannel.push.apply(leftchannel, convertoFloat32ToInt16(left));
         recordingLength += bufferSize;
