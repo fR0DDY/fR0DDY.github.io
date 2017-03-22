@@ -45,10 +45,10 @@ function success(e) {
         console.log(resampled);
         console.log(resampler.outputBuffer);
 
-        leftchannel.push.apply(leftchannel, convertoFloat32ToInt16(left));
-        recordingLength += bufferSize;
+        leftchannel.push.apply(leftchannel, convertoFloat32ToInt16(resampler.outputBuffer));
+        recordingLength += resampled;
 
-        if (recordingLength == 4096*20) {
+        if (recordingLength == resampled*20) {
         	recording = false;
         	var http = new XMLHttpRequest();
         	var url = "https://ancient-beyond-10162.herokuapp.com/zicly/hfs/";
