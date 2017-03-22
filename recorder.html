@@ -1,31 +1,47 @@
 <!doctype html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Audio Recorder</title>
+  <meta charset="utf-8">
+  <meta name="author" content="fR0DDY">
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+  <title>Web Listener</title>
   <style>
-  	body { 
-			font: 14pt Arial, sans-serif; 
-			background: lightgrey;
-			display: flex;
-			flex-direction: column;
-			height: 100vh;
-			width: 100%;
-			margin: 0 0;
-		}
-  	#controls { position: fixed; top: 40%; left: 45%; }
-	  #record.recording { 
-	    background: red;
-	    background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
-	    background: -moz-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
-	    background: radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
-	  }
+    body { 
+      font: 14pt Arial, sans-serif; 
+      background: lightgrey;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      margin: 0 0;
+    }
+    #record.recording { 
+      background: red;
+      background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%);
+      background: -moz-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
+      background: radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
+    }
+    #save, #save img { height: 10vh; }
+    #save { opacity: 0.25;}
+    #save[download] { opacity: 1;}
+    #controls {
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      width:10em;
+      height:16em;
+      margin-top: -8em;
+      margin-left: -5em;
+    }
   </style>
 </head>
 <body>
   <div id="controls">
-    <img id="record" src="img/mic128.png" onclick="toggleRecording(this);">
-    <h1 id="text"></h1>
+    <center>
+      <img id="record" src="img/mic128.png" onclick="toggleRecording(this);">
+      <h1 id="text"></h1>
+      <a id="save" href="#"><img src="img/save.svg"></a>
+    </center>
   </div>
   <script src="./js/recorder.js"></script>
 </body>

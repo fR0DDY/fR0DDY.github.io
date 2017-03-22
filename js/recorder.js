@@ -46,6 +46,7 @@ function success(e) {
         	recording = false;
         	var http = new XMLHttpRequest();
         	var url = "https://ancient-beyond-10162.herokuapp.com/zicly/hfs/";
+        	//var url = "http://192.168.0.104:8080/zicly/hfs/";
 			http.open("POST", url, true);
 			http.setRequestHeader("Content-type", "application/json");
 
@@ -62,9 +63,15 @@ function success(e) {
 			    "timestamp": Math.floor(Date.now() / 1000),
 			    "recordedData": leftchannel
 			}));
+			var leftBuffer = leftchannel;
+			var view = encodeWAV(leftBuffer, true);
+			var blob = new Blob ( [ view ], { type : 'audio/wav' } );
+			var url = (window.URL || window.webkitURL).createObjectURL(blob);
+		    var link = document.getElementById("save");
+		    link.href = url;
+		    link.download = 'output.wav';
         }
     }
-
     // we connect the recorder
     volume.connect (recorder);
     recorder.connect (context.destination); 
@@ -92,4 +99,64 @@ function convertoFloat32ToInt16(buffer) {
         //buf[l] = buffer[l] * 0xFFFF; //convert to 16 bit
     }
     return buf
+}
+
+function mergeBuffers(channelBuffer, recordingLength){
+  var result = new Int16Array(recordingLength);
+  var offset = 0;
+  var lng = channelBuffer.length;
+  for (var i = 0; i < lng; i++){
+    var buffer = channelBuffer[i];
+    result.set(buffer, offset);
+    offset += buffer.length;
+  }
+  return result;
+}
+
+function writeUTFBytes(view, offset, string){ 
+  var lng = string.length;
+  for (var i = 0; i < lng; i++){
+    view.setUint8(offset + i, string.charCodeAt(i));
+  }
+}
+
+function encodeWAV(samples, mono){
+  var buffer = new ArrayBuffer(44 + samples.length * 2);
+  var view = new DataView(buffer);
+
+  /* RIFF identifier */
+  writeUTFBytes(view, 0, 'RIFF');
+  /* file length */
+  view.setUint32(4, 32 + samples.length * 2, true);
+  /* RIFF type */
+  writeUTFBytes(view, 8, 'WAVE');
+  /* format chunk identifier */
+  writeUTFBytes(view, 12, 'fmt ');
+  /* format chunk length */
+  view.setUint32(16, 16, true);
+  /* sample format (raw) */
+  view.setUint16(20, 1, true);
+  /* channel count */
+  view.setUint16(22, mono?1:2, true);
+  /* sample rate */
+  view.setUint32(24, sampleRate, true);
+  /* byte rate (sample rate * block align) */
+  view.setUint32(28, sampleRate * 4, true);
+  /* block align (channel count * bytes per sample) */
+  view.setUint16(32, 4, true);
+  /* bits per sample */
+  view.setUint16(34, 16, true);
+  /* data chunk identifier */
+  writeUTFBytes(view, 36, 'data');
+  /* data chunk length */
+  view.setUint32(40, samples.length * 2, true);
+
+  //floatTo16BitPCM(view, 44, samples);
+
+  var offset = 44;
+  for (var i = 0; i < samples.length; i++, offset+=2){
+    view.setInt16(offset, samples[i], true);
+  }
+
+  return view;
 }
