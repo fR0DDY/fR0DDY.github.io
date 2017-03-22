@@ -41,7 +41,7 @@ function success(e) {
         if (!recording) return;
         var left = e.inputBuffer.getChannelData (0);
 
-        var resampled = resampler.resampler(buffer);
+        var resampled = resampler.resampler(left);
 
         console.log(resampled);
 
