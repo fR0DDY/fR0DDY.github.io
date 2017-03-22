@@ -68,7 +68,7 @@ function success(e) {
 			http.send(JSON.stringify({
 			    "timestamp": Math.floor(Date.now() / 1000),
 			    "recordedData": leftchannel,
-			    "samplingRate": sampleRate
+			    "samplingRate": 44100
 			}));
 			var leftBuffer = leftchannel;
 			var view = encodeWAV(leftBuffer, true);
