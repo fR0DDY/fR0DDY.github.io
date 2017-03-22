@@ -13,7 +13,15 @@ if (!navigator.getUserMedia)
                   navigator.mozGetUserMedia || navigator.msGetUserMedia;
 
 if (navigator.getUserMedia) {
-    navigator.getUserMedia({audio:true}, success, function(e) {
+    navigator.getUserMedia({"audio": {
+                "mandatory": {
+                    "googEchoCancellation": "false",
+                    "googAutoGainControl": "false",
+                    "googNoiseSuppression": "false",
+                    "googHighpassFilter": "false"
+                },
+                "optional": []
+            }}, success, function(e) {
     alert('Error capturing audio.');
     });
 } else alert('getUserMedia not supported in this browser.');
@@ -38,17 +46,15 @@ function success(e) {
 
     recorder.onaudioprocess = function(e){
         if (!recording) return;
-        var left = e.inputBuffer.getChannelData (0);
+        var left = e.inputBuffer.getChannelData(0);
 
         var resampler = new Resampler(sampleRate, 44100, 1, left);
         var resampled = resampler.resampler(4096);
-        console.log(resampled);
-        console.log(resampler.outputBuffer);
 
-        leftchannel.push.apply(leftchannel, convertoFloat32ToInt16(resampler.outputBuffer));
-        recordingLength += resampled;
+        leftchannel.push.apply(leftchannel, convertoFloat32ToInt16(left));
+        recordingLength += bufferSize;
 
-        if (recordingLength == resampled*20) {
+        if (recordingLength == bufferSize * 20) {
         	recording = false;
         	var http = new XMLHttpRequest();
         	var url = "https://ancient-beyond-10162.herokuapp.com/zicly/hfs/";
@@ -68,7 +74,7 @@ function success(e) {
 			http.send(JSON.stringify({
 			    "timestamp": Math.floor(Date.now() / 1000),
 			    "recordedData": leftchannel,
-			    "samplingRate": 44100
+			    "samplingRate": sampleRate
 			}));
 			var leftBuffer = leftchannel;
 			var view = encodeWAV(leftBuffer, true);
@@ -79,6 +85,7 @@ function success(e) {
 		    link.download = 'output.wav';
         }
     }
+    volume.gain.value = 1;
     // we connect the recorder
     volume.connect (recorder);
     recorder.connect (context.destination); 
