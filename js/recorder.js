@@ -55,34 +55,27 @@ function success(e) {
         recordingLength += bufferSize;
 
         if (recordingLength == bufferSize * 20) {
-        	recording = false;
-        	var http = new XMLHttpRequest();
-        	var url = "https://ancient-beyond-10162.herokuapp.com/zicly/hfs/";
-        	//var url = "http://192.168.0.104:8080/zicly/hfs/";
-			http.open("POST", url, true);
-			http.setRequestHeader("Content-type", "application/json");
+          //recording = false;
+          var http = new XMLHttpRequest();
+          var url = "https://ancient-beyond-10162.herokuapp.com/zicly/hfs/";
+          //var url = "http://192.168.0.104:8080/zicly/hfs/";
+          http.open("POST", url, true);
+          http.setRequestHeader("Content-type", "application/json");
 
-			http.onreadystatechange = function() {
-			    if(http.readyState == 4 && http.status == 200) {
-        			toggleRecording(document.getElementById("record"));
-			    }
-			}
-			http.onload = function () {
-			    console.log(this.responseText);
-			    document.getElementById("text").innerHTML = JSON.parse(this.responseText)["data"];
-			};
-			http.send(JSON.stringify({
-			    "timestamp": Math.floor(Date.now() / 1000),
-			    "recordedData": leftchannel,
-			    "samplingRate": sampleRate
-			}));
-			var leftBuffer = leftchannel;
-			var view = encodeWAV(leftBuffer, true);
-			var blob = new Blob ( [ view ], { type : 'audio/wav' } );
-			var url = (window.URL || window.webkitURL).createObjectURL(blob);
-		    var link = document.getElementById("save");
-		    link.href = url;
-		    link.download = 'output.wav';
+          http.onreadystatechange = function() {
+              if(http.readyState == 4 && http.status == 200) {
+                  //toggleRecording(document.getElementById("record"));
+              }
+          }
+          http.onload = function () {
+              console.log(this.responseText);
+              document.getElementById("text").innerHTML = JSON.parse(this.responseText)["data"];
+          };
+          http.send(JSON.stringify({
+              "timestamp": Math.floor(Date.now() / 1000),
+              "recordedData": leftchannel,
+              "samplingRate": sampleRate
+          }));          
         }
     }
     volume.gain.value = 1;
@@ -95,6 +88,13 @@ function toggleRecording( e ) {
     if (e.classList.contains("recording")) {
         recording = false;
         e.classList.remove("recording");
+        var leftBuffer = leftchannel;
+        var view = encodeWAV(leftBuffer, true);
+        var blob = new Blob ( [ view ], { type : 'audio/wav' } );
+        var url = (window.URL || window.webkitURL).createObjectURL(blob);
+        var link = document.getElementById("save");
+        link.href = url;
+        link.download = 'output.wav';
     } else {
         recording = true;
         e.classList.add("recording");
@@ -108,9 +108,9 @@ function convertoFloat32ToInt16(buffer) {
     var buf = new Int16Array(l)
 
     while (l--) {
-    	var s = Math.max(-1, Math.min(1, buffer[l]));
-    	buf[l] = s < 0 ? s * 0x8000 : s * 0x7FFF;
-        //buf[l] = buffer[l] * 0xFFFF; //convert to 16 bit
+      var s = Math.max(-1, Math.min(1, buffer[l]));
+      buf[l] = s < 0 ? s * 0x8000 : s * 0x7FFF;
+      //buf[l] = buffer[l] * 0xFFFF; //convert to 16 bit
     }
     return buf
 }
