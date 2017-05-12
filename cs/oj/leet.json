@@ -58,4 +58,14 @@
 	"title": "Best Time to Buy and Sell Stock with Cooldown",
 	"keywords": "DP",
 	"url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"
+}, {
+	"id": 55,
+	"title": "Jump Game",
+	"keywords": "BFS",
+	"url": "https://leetcode.com/problems/jump-game/"
+}, {
+	"id": 45,
+	"title": "Jump Game II",
+	"keywords": "BFS",
+	"url": "https://leetcode.com/problems/jump-game-ii/"
 }]

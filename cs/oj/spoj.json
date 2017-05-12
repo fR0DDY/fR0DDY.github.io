@@ -192,5 +192,7 @@
 	{ "id": "BDOI16B", "title": "Beautiful Factorial Game", "keywords": "number theory" },
 	{ "id": "PUCMMT02", "title": "Square-Free Product (Hard)", "keywords": "number theory, brent factorization" },
 	{ "id": "PALIN", "title": "The Next Palindrome", "keywords": "ad-hoc" },
-	{ "id": "SQRMINSUM", "title": "Minimum Sum", "keywords": "ad-hoc" }
+	{ "id": "SQRMINSUM", "title": "Minimum Sum", "keywords": "ad-hoc" },
+	{ "id": "ADAGCD", "title": "Ada and GCD", "keywords": "number theory, prime factorization" },
+	{ "id": "DQUERY", "title": "D-query", "keywords": "Mo's algorithm, square root decomposition on queries" }
 ]	
