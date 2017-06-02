@@ -1,4 +1,8 @@
 [
 	{ "id": "KTTABLE", "title": "Kitchen Timetable", "keywords": "easy" },
-	{ "id": "MMSUM", "title": "Better Maximal Sum", "keywords": "DP" }
+	{ "id": "MMSUM", "title": "Better Maximal Sum", "keywords": "DP" },
+  { "id": "SNGRAPH", "title": "Snakes and Graph", "keywords": "graph theory, disjoint-set data structure" },
+  { "id": "SNSOCIAL", "title": "Snakes and transition from Capitalism to Socialism", "keywords": "graph theory, BFS" },
+  { "id": "SNTEMPLE", "title": "A temple of Snakes", "keywords": "ad-hoc" },
+  { "id": "VCAKE", "title": "VCake", "keywords": "ad-hoc" }
 ]
