@@ -49,12 +49,11 @@
     </div>
   </div>
   <div class="container-fluid">
-    <div class="row">
+    <div class="row-fluid">
       <div class="col-sm-12">
-        <video id="preview"></video>
+        <video id="preview" style="width: 100%"></video>
       </div>
     </div>
-
     <div id="modal" title="Flow">
       <p>Image:</p>
       <img id="image" src="./img/KBC_Default.png" alt="Flow Image" />
@@ -64,7 +63,9 @@
     var modal = document.getElementById('modal');
     var shade = document.getElementById('shade');
     let scanner = new Instascan.Scanner({
-      video: document.getElementById('preview')
+      video: document.getElementById('preview'),
+      mirror: false,
+      refractoryPeriod: 1000,
     });
     scanner.addListener('scan', function (content) {
       console.log(content);
