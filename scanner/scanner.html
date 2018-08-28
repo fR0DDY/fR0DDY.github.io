@@ -9,6 +9,35 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="../css/app.css">
   <script type="text/javascript" src="js/instascan.min.js"></script>
+  <style type="text/css">
+    #shade,
+    #modal {
+      display: none;
+    }
+
+    #shade {
+      position: fixed;
+      z-index: 100;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #modal {
+      position: fixed;
+      z-index: 101;
+      top: 33%;
+      left: 25%;
+      width: 50%;
+    }
+
+    #shade {
+      background: silver;
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+    }
+  </style>
 </head>
 
 <body style="padding-top: 0px;">
@@ -21,18 +50,19 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-12">
         <video id="preview"></video>
       </div>
-      <div class="col-sm-4 offset-sm-4">
-        <img id="image" src="./img/KBC_Default.png" class="img-fluid" alt="Creative Flow">
-      </div>
     </div>
-    <div class="row">
 
+    <div id="modal" title="Flow">
+      <p>Image:</p>
+      <img id="image" src="./img/KBC_Default.png" alt="Flow Image" />
     </div>
   </div>
   <script type="text/javascript">
+    var modal = document.getElementById('modal');
+    var shade = document.getElementById('shade');
     let scanner = new Instascan.Scanner({
       video: document.getElementById('preview')
     });
@@ -40,16 +70,22 @@
       console.log(content);
       if (content === 'Test1') {
         document.getElementById('image').src = './img/K1.png';
+        modal.style.display = 'block';
       } else if (content === 'Test2') {
         document.getElementById('image').src = './img/K2.png';
+        modal.style.display = shade.style.display = 'block';
       } else if (content === 'Test3') {
         document.getElementById('image').src = './img/K3.png';
+        modal.style.display = shade.style.display = 'block';
       } else if (content === 'Test4') {
         document.getElementById('image').src = './img/K4.png';
+        modal.style.display = shade.style.display = 'block';
       } else if (content === 'Test5') {
         document.getElementById('image').src = './img/K5.png';
+        modal.style.display = shade.style.display = 'block';
       } else {
         document.getElementById('image').src = './img/KBC_Default.png';
+        modal.style.display = shade.style.display = 'none';
       }
     });
     Instascan.Camera.getCameras().then(function (cameras) {
