@@ -54,14 +54,8 @@
         <video id="preview" style="width: 100%"></video>
       </div>
     </div>
-    <div id="modal" title="Flow">
-      <p>Image:</p>
-      <img id="image" src="./img/KBC_Default.png" alt="Flow Image" />
-    </div>
   </div>
   <script type="text/javascript">
-    var modal = document.getElementById('modal');
-    var shade = document.getElementById('shade');
     let scanner = new Instascan.Scanner({
       video: document.getElementById('preview'),
       mirror: false,
@@ -70,23 +64,15 @@
     scanner.addListener('scan', function (content) {
       console.log(content);
       if (content === 'Test1') {
-        document.getElementById('image').src = './img/K1.png';
         window.open('./img/K1.png', '_self', false);
       } else if (content === 'Test2') {
-        document.getElementById('image').src = './img/K2.png';
         window.open('./img/K2.png', '_self', false);
       } else if (content === 'Test3') {
-        document.getElementById('image').src = './img/K3.png';
         window.open('./img/K3.png', '_self', false);
       } else if (content === 'Test4') {
-        document.getElementById('image').src = './img/K4.png';
         window.open('./img/K4.png', '_self', false);
       } else if (content === 'Test5') {
-        document.getElementById('image').src = './img/K5.png';
         window.open('./img/K5.png', '_self', false);
-      } else {
-        document.getElementById('image').src = './img/KBC_Default.png';
-        modal.style.display = shade.style.display = 'none';
       }
     });
     Instascan.Camera.getCameras().then(function (cameras) {
